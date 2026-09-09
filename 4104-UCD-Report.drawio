@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="หน้า-1" id="_zWxXnTbe6lWXtqQZe0Q">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SpXO2ZPHP2GwqGa1ZGiz-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="ผู้ใช้เลือกเมนู &quot;Reports &amp;amp; Statistics&quot; (รายงานและสถิติ)" vertex="1">
+          <mxGeometry height="80" width="200" x="763" y="224" as="geometry" />
+        </mxCell>
+        <mxCell id="SpXO2ZPHP2GwqGa1ZGiz-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="ระบบแสดงหน้าจอตัวเลือกประเภทรายงาน (เช่น สถิติการเข้าชมข่าว, รายงานสรุปการใช้งาน)" vertex="1">
+          <mxGeometry height="80" width="200" x="763" y="344" as="geometry" />
+        </mxCell>
+        <mxCell id="SpXO2ZPHP2GwqGa1ZGiz-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="ผู้ใช้เลือกหัวข้อ &quot;สถิติการเข้าชมข่าว&quot; (News Statistics)" vertex="1">
+          <mxGeometry height="80" width="200" x="763" y="464" as="geometry" />
+        </mxCell>
+        <mxCell id="SpXO2ZPHP2GwqGa1ZGiz-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="ผู้ใช้งานกดปุ่ม &quot;Generate Report&quot; (สร้างรายงาน)" vertex="1">
+          <mxGeometry height="80" width="200" x="763" y="584" as="geometry" />
+        </mxCell>
+        <mxCell id="SpXO2ZPHP2GwqGa1ZGiz-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="ผู้ใช้กำหนดเงื่อนไขการแสดงผล (เช่น ช่วงวันที่, หมวดหมู่ข่าว, หรือเลือกดูข่าวเฉพาะเรื่อง)" vertex="1">
+          <mxGeometry height="80" width="200" x="763" y="704" as="geometry" />
+        </mxCell>
+        <mxCell id="SpXO2ZPHP2GwqGa1ZGiz-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="ระบบประมวลผลข้อมูลและแสดงผลลัพธ์ในรูปแบบตารางสรุปหรือกราฟสถิติ" vertex="1">
+          <mxGeometry height="80" width="200" x="763" y="824" as="geometry" />
+        </mxCell>
+        <mxCell id="SpXO2ZPHP2GwqGa1ZGiz-8" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=18;" value="admin" vertex="1">
+          <mxGeometry height="110" width="70" x="1103" y="494" as="geometry" />
+        </mxCell>
+        <mxCell id="SpXO2ZPHP2GwqGa1ZGiz-9" edge="1" parent="1" source="SpXO2ZPHP2GwqGa1ZGiz-2" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" target="SpXO2ZPHP2GwqGa1ZGiz-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="1013" y="478" as="sourcePoint" />
+            <mxPoint x="1063" y="428" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpXO2ZPHP2GwqGa1ZGiz-10" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" target="SpXO2ZPHP2GwqGa1ZGiz-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="963" y="384" as="sourcePoint" />
+            <mxPoint x="1103" y="651" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpXO2ZPHP2GwqGa1ZGiz-11" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" target="SpXO2ZPHP2GwqGa1ZGiz-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="963" y="504" as="sourcePoint" />
+            <mxPoint x="1103" y="651" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpXO2ZPHP2GwqGa1ZGiz-12" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" target="SpXO2ZPHP2GwqGa1ZGiz-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="963" y="624" as="sourcePoint" />
+            <mxPoint x="1103" y="771" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpXO2ZPHP2GwqGa1ZGiz-13" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" target="SpXO2ZPHP2GwqGa1ZGiz-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="963" y="744" as="sourcePoint" />
+            <mxPoint x="1103" y="891" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpXO2ZPHP2GwqGa1ZGiz-14" edge="1" parent="1" source="SpXO2ZPHP2GwqGa1ZGiz-7" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" target="SpXO2ZPHP2GwqGa1ZGiz-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="1083" y="784" as="sourcePoint" />
+            <mxPoint x="1223" y="931" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpXO2ZPHP2GwqGa1ZGiz-15" parent="1" style="swimlane;startSize=0;" value="" vertex="1">
+          <mxGeometry height="796" width="717" x="523" y="164" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
